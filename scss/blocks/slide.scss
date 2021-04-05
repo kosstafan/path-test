@@ -38,54 +38,54 @@
             position: relative;
             min-height: 100%;
             background:
-                url('./../img/background/battons1100.png') top 38% right 28% no-repeat,
-                url('./../img/background/ellipse_dark1100.png') top 52% right 18% no-repeat,
-                url('./../img/background/ellipse_light1100.png') top 63% right 16% no-repeat;
-            /* url(./../img/pics/decor/leaf_contains1100.png) top 37% right 82% no-repeat; */
+                url('./../../img/background/battons1100.png') top 38% right 28% no-repeat,
+                url('./../../img/background/ellipse_dark1100.png') top 52% right 18% no-repeat,
+                url('./../../img/background/ellipse_light1100.png') top 63% right 16% no-repeat;
+            /* url(./../../img/pics/decor/leaf_contains1100.png) top 37% right 82% no-repeat; */
 
             @include tablet {
                 background:
-                url('./../img/background/battons768.png') top 83% right 52% no-repeat, url('./../img/background/ellipse_dark768.png') top 89% right 49% no-repeat, url('./../img/background/ellipse_light768.png') top 94% right 49% no-repeat;
+                url('./../../img/background/battons768.png') top 83% right 52% no-repeat, url('./../../img/background/ellipse_dark768.png') top 89% right 49% no-repeat, url('./../../img/background/ellipse_light768.png') top 94% right 49% no-repeat;
             }
 
             @include phone {
                 background:
-                    url('./../img/background/battons480.png') top 47% right 57% no-repeat, url('./../img/background/ellipse_dark480.png') top 60% right 52% no-repeat, url('./../img/background/ellipse_light480.png') top 69% right 51% no-repeat;
+                    url('./../../img/background/battons480.png') top 47% right 57% no-repeat, url('./../../img/background/ellipse_dark480.png') top 60% right 52% no-repeat, url('./../../img/background/ellipse_light480.png') top 69% right 51% no-repeat;
             }
 
             &::before {
-                content: url('../img/pics/decor/leaf_contains1100.png');
+                content: url('../../img/pics/decor/leaf_contains1100.png');
                 position: absolute;
                 top: 33%;
                 left: 16%;
 
                 @include tablet {
-                    content: url('../img/pics/decor/leaf_contains768.png');
+                    content: url('../../img/pics/decor/leaf_contains768.png');
                     top: 41%;
                     left: 25%;
                 }
 
                 @include phone {
-                    content: url('../img/pics/decor/leaf_contains480.png');
+                    content: url('../../img/pics/decor/leaf_contains480.png');
                     top: 29%;
                     left: 6%;
                 }
             }
 
             &::after {
-                content: url('../img/pics/decor/leaf2_contains1100.png');
+                content: url('../../img/pics/decor/leaf2_contains1100.png');
                 position: absolute;
                 top: 71%;
                 left: 81%;
 
                 @include tablet {
-                    content: url('../img/pics/decor/leaf2_contains768.png');
+                    content: url('../../img/pics/decor/leaf2_contains768.png');
                     top: 90.5%;
                     left: 62%;
                 }
 
                 @include phone {
-                    content: url('../img/pics/decor/leaf2_contains480.png');
+                    content: url('../../img/pics/decor/leaf2_contains480.png');
                     top: 72.5%;
                     left: 71%;
                 }
