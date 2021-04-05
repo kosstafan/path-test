@@ -15,10 +15,10 @@
         position: relative;
         @include flexCol-JCc-ALIfs($justify-content: center, $align-items: center);
         padding: 0 0 rem(16px);
-        background: url('../../img/background/layer_list1100.png') left top 51% no-repeat;
+        background: url('../img/background/layer_list1100.png') left top 51% no-repeat;
 
         @include tablet {
-            background: url('../../img/background/layer_list1100.png') left -1% top 12% no-repeat;
+            background: url('../img/background/layer_list1100.png') left -1% top 12% no-repeat;
             /* padding: rem(279px) 0 rem(252px); */
             padding: rem(23px) 0 0;
         }
@@ -40,14 +40,14 @@
         position: relative;
 
         &::before {
-            content: url('../../img/background/raspberry1100.png');
+            content: url('../img/background/raspberry1100.png');
             left: 0;
             top: 281.5%;
             position: absolute;
             z-index: 100;
     
             @include tablet {
-                content: url('../../img/background/raspberry1100.png');
+                content: url('../img/background/raspberry1100.png');
                 /* bottom: -8%; */
                 top: 450%;
             }
